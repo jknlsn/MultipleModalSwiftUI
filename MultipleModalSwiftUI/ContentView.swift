@@ -33,6 +33,12 @@ struct ContentView: View {
                     Image(systemName: "4.square.fill")
                     Text("Fourth")
                 }
+            
+            FifthView()
+                .tabItem {
+                    Image(systemName: "5.square.fill")
+                    Text("Fifth")
+                }
         }
         .font(.headline)
     }
@@ -188,6 +194,41 @@ struct FourthView: View {
                 }
             }
         )
+    }
+}
+
+struct FifthView: View {
+    
+    @State var showFirst = false
+    @State var showSecond = false
+    
+    var body: some View {
+        VStack{
+            Text("Separate modals on separate elements")
+            Button(action: {
+                self.showFirst.toggle()
+            }) {
+                Text("First button")
+            }
+            .sheet(
+                isPresented: $showFirst,
+                content: {
+                    Text("First modal!")
+                }
+            )
+            
+            Button(action: {
+                self.showSecond.toggle()
+            }) {
+                Text("Second button")
+            }
+            .sheet(
+                isPresented: $showSecond,
+                content: {
+                    Text("Second modal!")
+                }
+            )
+        }
     }
 }
 

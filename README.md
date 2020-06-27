@@ -6,6 +6,8 @@ Previously it was possible to have multiple modals effectively achieved in a sin
 When running this example, you should see a modal saying "First view!" or "Second view!" depending on the button pressed, which updates the `@State` variable `whichModal` and then toggles the `showModal` boolean.
 Instead my experience has been that clicking on a button the first time will almost seem as if it has not changed the State variable, then subsequent times work.
 
+The fifth tab is the only one which achieves the desired effect, but uses separate sheet views on different elements.
+
 Is this a bug, or is there a different way to now achieve this effect?
 
 ```swift
