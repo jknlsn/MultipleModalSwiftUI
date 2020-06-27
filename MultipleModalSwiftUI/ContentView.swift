@@ -52,6 +52,7 @@ struct FirstView: View {
     var body: some View {
         VStack{
             Text("switch statement and State initially set to ''")
+            Text("\(whichModal)").hidden()
             Button(action: {
                 whichModal = "first"
                 self.showModal.toggle()
