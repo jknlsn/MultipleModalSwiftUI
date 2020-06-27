@@ -45,6 +45,7 @@
 		C27FC2F424A7170400F27CF4 /* MultipleModalSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleModalSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27FC2F824A7170400F27CF4 /* MultipleModalSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleModalSwiftUIUITests.swift; sourceTree = "<group>"; };
 		C27FC2FA24A7170500F27CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27FC30624A7372B00F27CF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		C27FC2CF24A7170100F27CF4 = {
 			isa = PBXGroup;
 			children = (
+				C27FC30624A7372B00F27CF4 /* README.md */,
 				C27FC2DA24A7170100F27CF4 /* MultipleModalSwiftUI */,
 				C27FC2EC24A7170400F27CF4 /* MultipleModalSwiftUITests */,
 				C27FC2F724A7170400F27CF4 /* MultipleModalSwiftUIUITests */,
